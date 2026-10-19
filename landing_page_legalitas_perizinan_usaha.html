@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Amartika Prameswari | Jasa Legalitas dan Perizinan Usaha</title>
+    <meta name="description" content="Konsultasikan kebutuhan legalitas dan perizinan usaha Anda bersama CV Amartika Prameswari.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            50: '#f0f4f8',
+                            100: '#d9e2ec',
+                            800: '#102a43',
+                            900: '#0b1b2b',
+                            DEFAULT: '#0b1b2b',
+                        },
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#d97706',
+                            600: '#b45309',
+                            DEFAULT: '#d97706',
+                        },
+                        greybg: '#f8fafc',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #d97706 0%, #fbbf24 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+        }
+    </style>
+</head>
+<body class="font-sans bg-white text-slate-700 antialiased selection:bg-gold-500 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all duration-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo / Name -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-lg bg-navy flex items-center justify-center text-gold-500 font-heading font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
+                        AP
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-heading font-bold text-lg text-navy tracking-tight leading-tight">CV Amartika Prameswari</span>
+                        <span class="text-xs text-slate-500 font-medium">Jasa Legalitas & Perizinan Usaha</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Menu -->
+                <nav class="hidden md:flex items-center gap-8">
+                    <a href="#beranda" class="text-sm font-semibold text-slate-700 hover:text-gold-600 transition-colors">Beranda</a>
+                    <a href="#layanan" class="text-sm font-semibold text-slate-700 hover:text-gold-600 transition-colors">Layanan</a>
+                    <a href="#tentang" class="text-sm font-semibold text-slate-700 hover:text-gold-600 transition-colors">Tentang Kami</a>
+                    <a href="#kontak" class="text-sm font-semibold text-slate-700 hover:text-gold-600 transition-colors">Kontak</a>
+                </nav>
+
+                <!-- Desktop Header CTA Button -->
+                <div class="hidden md:flex items-center">
+                    <a href="https://wa.me/6281927235758?text=Halo%20CV%20Amartika%20Prameswari%2C%20saya%20ingin%20berkonsultasi%20mengenai%20legalitas%20dan%20perizinan%20usaha." 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-semibold text-white bg-navy hover:bg-navy-800 transition-all shadow-sm hover:shadow-md gap-2 border border-navy">
+                        <i data-lucide="message-circle" class="w-4 h-4 text-gold-400"></i>
+                        <span>Konsultasi Sekarang</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" type="button" class="text-slate-700 hover:text-navy p-2 rounded-md focus:outline-none" aria-label="Buka Menu">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-6 space-y-3">
+            <a href="#beranda" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50">Beranda</a>
+            <a href="#layanan" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50">Layanan</a>
+            <a href="#tentang" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50">Tentang Kami</a>
+            <a href="#kontak" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50">Kontak</a>
+            <div class="pt-2">
+                <a href="https://wa.me/6281927235758?text=Halo%20CV%20Amartika%20Prameswari%2C%20saya%20ingin%20berkonsultasi%20mengenai%20legalitas%20dan%20perizinan%20usaha." 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="w-full flex items-center justify-center px-4 py-3 rounded-lg text-base font-semibold text-white bg-navy gap-2">
+                    <i data-lucide="message-circle" class="w-5 h-5 text-gold-400"></i>
+                    <span>Konsultasi Sekarang</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="beranda" class="relative py-16 md:py-24 bg-gradient-to-b from-slate-50 via-white to-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Text Area -->
+                <div class="lg:col-span-7 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-50 border border-gold-200 text-gold-600 text-xs font-semibold mb-6">
+                        <i data-lucide="shield-check" class="w-4 h-4"></i>
+                        <span>Mitra Terpercaya Perizinan & Legalitas</span>
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-navy leading-tight tracking-tight mb-6">
+                        Solusi Legalitas dan Perizinan Usaha Anda
+                    </h1>
+                    <p class="text-base sm:text-lg text-slate-600 leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">
+                        Kami membantu Anda memahami dan mengurus kebutuhan legalitas serta perizinan usaha agar langkah bisnis menjadi lebih terarah, tertib, dan sesuai ketentuan yang berlaku.
+                    </p>
+                    
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="https://wa.me/6281927235758?text=Halo%20CV%20Amartika%20Prameswari%2C%20saya%20ingin%20berkonsultasi%20mengenai%20legalitas%20dan%20perizinan%20usaha." 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-lg text-base font-semibold text-white bg-navy hover:bg-navy-800 transition-all shadow-md hover:shadow-lg gap-2.5">
+                            <i data-lucide="message-circle" class="w-5 h-5 text-gold-400"></i>
+                            <span>Konsultasi via WhatsApp</span>
+                        </a>
+                        <a href="#layanan" 
+                           class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-lg text-base font-semibold text-navy bg-white hover:bg-slate-50 border border-slate-200 transition-all shadow-sm">
+                            <span>Lihat Layanan</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Graphic Illustration -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="bg-navy rounded-2xl p-8 text-white shadow-2xl relative overflow-hidden border border-slate-800">
+                            <!-- Background Subtle Pattern -->
+                            <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-gold-500/10 rounded-full blur-2xl"></div>
+                            
+                            <div class="flex items-center justify-between pb-6 border-b border-slate-700/60 mb-6">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-lg bg-gold-500/20 flex items-center justify-center text-gold-400">
+                                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-sm">Dokumen Usaha</h3>
+                                        <p class="text-xs text-slate-400">Lengkap & Teratur</p>
+                                    </div>
+                                </div>
+                                <span class="text-xs font-medium px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Siap Proses</span>
+                            </div>
+
+                            <div class="space-y-4 text-sm">
+                                <div class="flex items-center gap-3 p-3 rounded-lg bg-slate-800/60">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-gold-400 shrink-0"></i>
+                                    <span class="text-slate-200">Pendirian Badan Usaha</span>
+                                </div>
+                                <div class="flex items-center gap-3 p-3 rounded-lg bg-slate-800/60">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-gold-400 shrink-0"></i>
+                                    <span class="text-slate-200">Perizinan Sektor Usaha</span>
+                                </div>
+                                <div class="flex items-center gap-3 p-3 rounded-lg bg-slate-800/60">
+                                    <i data-lucide="check-circle-2" class="w-5 h-5 text-gold-400 shrink-0"></i>
+                                    <span class="text-slate-200">Kelengkapan Administrasi Legal</span>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 pt-6 border-t border-slate-700/60 flex items-center justify-between text-xs text-slate-400">
+                                <span>Langkah Tepat & Sesuai Aturan</span>
+                                <i data-lucide="building-2" class="w-4 h-4 text-gold-400"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="py-16 md:py-24 bg-greybg border-y border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-2xl sm:text-3xl font-heading font-bold text-navy mb-4">Layanan Kami</h2>
+                <p class="text-slate-600 text-base">
+                    Pilihan kategori pendampingan legalitas dan perizinan dasar yang dapat disesuaikan dengan tahapan serta kebutuhan bisnis Anda.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-navy/5 flex items-center justify-center text-navy mb-5">
+                            <i data-lucide="building" class="w-6 h-6 text-navy"></i>
+                        </div>
+                        <h3 class="text-lg font-bold font-heading text-navy mb-3">Pendirian Badan Usaha</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                            Informasi dan pendampingan proses pendirian badan usaha sesuai kebutuhan klien.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100">
+                        <span class="text-xs font-semibold text-gold-600 inline-flex items-center gap-1">
+                            Konsultasi pendampingan <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-navy/5 flex items-center justify-center text-navy mb-5">
+                            <i data-lucide="file-check" class="w-6 h-6 text-navy"></i>
+                        </div>
+                        <h3 class="text-lg font-bold font-heading text-navy mb-3">Perizinan Usaha</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                            Pendampingan pengurusan perizinan usaha sesuai bidang dan ketentuan yang berlaku.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100">
+                        <span class="text-xs font-semibold text-gold-600 inline-flex items-center gap-1">
+                            Konsultasi pendampingan <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-navy/5 flex items-center justify-center text-navy mb-5">
+                            <i data-lucide="folder-check" class="w-6 h-6 text-navy"></i>
+                        </div>
+                        <h3 class="text-lg font-bold font-heading text-navy mb-3">Legalitas Perusahaan</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                            Bantuan terkait kebutuhan dokumen dan administrasi legalitas perusahaan.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100">
+                        <span class="text-xs font-semibold text-gold-600 inline-flex items-center gap-1">
+                            Konsultasi pendampingan <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-lg bg-navy/5 flex items-center justify-center text-navy mb-5">
+                            <i data-lucide="messages-square" class="w-6 h-6 text-navy"></i>
+                        </div>
+                        <h3 class="text-lg font-bold font-heading text-navy mb-3">Konsultasi Legalitas</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                            Konsultasi awal untuk membantu menentukan kebutuhan legalitas dan perizinan bisnis.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100">
+                        <span class="text-xs font-semibold text-gold-600 inline-flex items-center gap-1">
+                            Konsultasi pendampingan <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto bg-navy rounded-2xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
+                <!-- Decorative Elements -->
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gold-500/10 rounded-full blur-xl"></div>
+                
+                <div class="relative z-10 text-center">
+                    <span class="text-gold-400 font-semibold text-sm tracking-wider uppercase mb-2 block">Tentang Kami</span>
+                    <h2 class="text-2xl sm:text-3xl font-heading font-bold mb-6 text-white">
+                        Mitra untuk Kebutuhan Legalitas Usaha Anda
+                    </h2>
+                    <p class="text-slate-300 text-base sm:text-lg leading-relaxed mb-8">
+                        CV Amartika Prameswari hadir untuk membantu pelaku usaha memahami kebutuhan legalitas dan perizinan bisnis. Kami mengutamakan komunikasi yang jelas, pelayanan yang profesional, dan pendampingan sesuai kebutuhan usaha Anda.
+                    </p>
+                    
+                    <div class="pt-6 border-t border-slate-800 flex flex-wrap justify-center gap-8 text-slate-300 text-sm">
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-gold-400"></i>
+                            <span>Komunikasi Jelas</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-gold-400"></i>
+                            <span>Layanan Profesional</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-gold-400"></i>
+                            <span>Pendampingan Sesuai Kebutuhan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-greybg border-t border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-2xl sm:text-3xl font-heading font-bold text-navy mb-4">Alur Layanan</h2>
+                <p class="text-slate-600 text-base">Tiga langkah sederhana untuk memulai konsultasi kebutuhan legalitas bisnis Anda.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 relative">
+                
+                <!-- Step 1 -->
+                <div class="bg-white p-8 rounded-xl border border-slate-200/80 text-center relative z-10 shadow-sm">
+                    <div class="w-12 h-12 rounded-full bg-navy text-gold-400 font-bold text-lg flex items-center justify-center mx-auto mb-6 shadow">
+                        1
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-navy mb-3">Hubungi Kami</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Sampaikan kebutuhan usaha Anda melalui kontak WhatsApp atau email kami.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white p-8 rounded-xl border border-slate-200/80 text-center relative z-10 shadow-sm">
+                    <div class="w-12 h-12 rounded-full bg-navy text-gold-400 font-bold text-lg flex items-center justify-center mx-auto mb-6 shadow">
+                        2
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-navy mb-3">Konsultasi Kebutuhan</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Konsultasikan kebutuhan dokumen dan perizinan yang diperlukan untuk usaha Anda.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white p-8 rounded-xl border border-slate-200/80 text-center relative z-10 shadow-sm">
+                    <div class="w-12 h-12 rounded-full bg-navy text-gold-400 font-bold text-lg flex items-center justify-center mx-auto mb-6 shadow">
+                        3
+                    </div>
+                    <h3 class="font-heading font-bold text-lg text-navy mb-3">Informasi & Langkah</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Dapatkan informasi mengenai proses, persyaratan, dan langkah selanjutnya.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-navy text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold mb-4">
+                Siap Mengurus Legalitas Usaha Anda?
+            </h2>
+            <p class="text-slate-300 text-base sm:text-lg mb-8 max-w-2xl mx-auto">
+                Konsultasikan kebutuhan bisnis Anda bersama CV Amartika Prameswari.
+            </p>
+            <a href="https://wa.me/6281927235758?text=Halo%20CV%20Amartika%20Prameswari%2C%20saya%20ingin%20berkonsultasi%20mengenai%20legalitas%20dan%20perizinan%20usaha." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="inline-flex items-center justify-center px-8 py-4 rounded-lg text-base font-semibold text-navy bg-gold-400 hover:bg-gold-500 transition-colors shadow-lg gap-3">
+                <i data-lucide="message-circle" class="w-5 h-5 text-navy"></i>
+                <span>Hubungi Kami via WhatsApp</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-2xl sm:text-3xl font-heading font-bold text-navy mb-4">Kontak Kami</h2>
+                <p class="text-slate-600 text-base">Silakan hubungi kami melalui saluran informasi di bawah ini.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-start">
+                
+                <!-- Contact Details List -->
+                <div class="space-y-6">
+                    
+                    <!-- Address Card -->
+                    <div class="flex items-start gap-4 p-5 rounded-xl bg-greybg border border-slate-200/80">
+                        <div class="w-10 h-10 rounded-lg bg-navy/5 flex items-center justify-center text-navy shrink-0 mt-1">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-heading font-bold text-navy text-sm mb-1">Alamat Kantor</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed mb-2">
+                                Perumahan BCI Pataruman, Bandung, Bandung Barat
+                            </p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Perumahan+BCI+Pataruman+Bandung+Barat" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="text-xs font-semibold text-gold-600 hover:text-gold-500 inline-flex items-center gap-1">
+                                <span>Buka di Google Maps</span>
+                                <i data-lucide="external-link" class="w-3 h-3"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Email Card -->
+                    <div class="flex items-start gap-4 p-5 rounded-xl bg-greybg border border-slate-200/80">
+                        <div class="w-10 h-10 rounded-lg bg-navy/5 flex items-center justify-center text-navy shrink-0 mt-1">
+                            <i data-lucide="mail" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-heading font-bold text-navy text-sm mb-1">Email</h4>
+                            <a href="mailto:cvamartikaprameswari@gmail.com" class="text-slate-600 hover:text-gold-600 text-sm transition-colors block">
+                                cvamartikaprameswari@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Card -->
+                    <div class="flex items-start gap-4 p-5 rounded-xl bg-greybg border border-slate-200/80">
+                        <div class="w-10 h-10 rounded-lg bg-navy/5 flex items-center justify-center text-navy shrink-0 mt-1">
+                            <i data-lucide="phone" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-heading font-bold text-navy text-sm mb-1">WhatsApp / Telepon</h4>
+                            <a href="https://wa.me/6281927235758?text=Halo%20CV%20Amartika%20Prameswari%2C%20saya%20ingin%20berkonsultasi%20mengenai%20legalitas%20dan%20perizinan%20usaha." 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="text-slate-600 hover:text-gold-600 text-sm transition-colors block">
+                                +62 819-2723-5758
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Working Hours Card -->
+                    <div class="flex items-start gap-4 p-5 rounded-xl bg-greybg border border-slate-200/80">
+                        <div class="w-10 h-10 rounded-lg bg-navy/5 flex items-center justify-center text-navy shrink-0 mt-1">
+                            <i data-lucide="clock" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-heading font-bold text-navy text-sm mb-1">Jam Operasional</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed">
+                                Senin – Jumat, pukul 09.00 – 17.00 WIB
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Interactive Map / Info Panel -->
+                <div class="bg-navy rounded-2xl p-8 text-white h-full flex flex-col justify-between relative overflow-hidden">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-gold-500/20 text-gold-400 flex items-center justify-center mb-6">
+                            <i data-lucide="building-2" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-heading font-bold mb-3">Layanan Konsultasi Online & On-Site</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            Kami melayani konsultasi secara langsung maupun daring melalui WhatsApp dan email untuk kemudahan Anda.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t border-slate-800 space-y-3">
+                        <a href="https://wa.me/6281927235758?text=Halo%20CV%20Amartika%20Prameswari%2C%20saya%20ingin%20berkonsultasi%20mengenai%20legalitas%20dan%20perizinan%20usaha." 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-gold-500 hover:bg-gold-600 text-navy font-semibold text-sm transition-colors">
+                            <i data-lucide="message-circle" class="w-4 h-4"></i>
+                            <span>Chat via WhatsApp</span>
+                        </a>
+                        <a href="mailto:cvamartikaprameswari@gmail.com" 
+                           class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-white font-semibold text-sm transition-colors border border-slate-700">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            <span>Kirim Email</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-navy text-white pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-12 gap-8 pb-12 border-b border-slate-800">
+                
+                <!-- Brand Info -->
+                <div class="md:col-span-5">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-9 h-9 rounded-lg bg-gold-500 text-navy font-heading font-bold text-lg flex items-center justify-center">
+                            AP
+                        </div>
+                        <span class="font-heading font-bold text-lg tracking-tight">CV Amartika Prameswari</span>
+                    </div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6 max-w-sm">
+                        Jasa legalitas dan perizinan usaha terpercaya di Indonesia. Membantu langkah bisnis Anda menjadi lebih terarah dan tertib legalitas.
+                    </p>
+                </div>
+
+                <!-- Navigation Quick Links -->
+                <div class="md:col-span-3">
+                    <h4 class="font-heading font-bold text-sm text-gold-400 mb-4 uppercase tracking-wider">Navigasi</h4>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li><a href="#beranda" class="hover:text-white transition-colors">Beranda</a></li>
+                        <li><a href="#layanan" class="hover:text-white transition-colors">Layanan</a></li>
+                        <li><a href="#tentang" class="hover:text-white transition-colors">Tentang Kami</a></li>
+                        <li><a href="#kontak" class="hover:text-white transition-colors">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Operational Brief -->
+                <div class="md:col-span-4">
+                    <h4 class="font-heading font-bold text-sm text-gold-400 mb-4 uppercase tracking-wider">Informasi Layanan</h4>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4 text-slate-400"></i>
+                            <span>cvamartikaprameswari@gmail.com</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4 text-slate-400"></i>
+                            <span>+62 819-2723-5758</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="clock" class="w-4 h-4 text-slate-400"></i>
+                            <span>Senin–Jumat, 09.00–17.00 WIB</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright Notice -->
+            <div class="pt-8 text-center text-xs text-slate-400">
+                <p>&copy; <span id="year"></span> CV Amartika Prameswari. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Set Dynamic Current Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close Mobile Menu on Click Outside or Link Click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
